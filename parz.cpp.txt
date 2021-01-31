@@ -1,0 +1,13 @@
+#include<iostream>
+#include<array>
+
+auto main -> int
+{
+std::array<int, 8>tab;
+
+     for (auto x = 1; <= 8; x = x +1) {
+     tab[x] = x * 2;
+     std::cout << x << " " << tab.at(x) << '\n';
+}
+return 0;
+}
